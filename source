@@ -778,5 +778,5 @@ function lib:NewTab(name, desc)
 	       callback(Box.Text)
         end)
     end
+    return tabFuncs
 end
-return tabFuncs
