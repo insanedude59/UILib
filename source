@@ -556,7 +556,7 @@ function lib:NewTab(name, desc)
 		List.ZIndex = 50
 		List.Visible = false
 		List.AutomaticSize = Enum.AutomaticSize.XY
-		vis = false;
+		local vis = false;
         
 		Dropdown.MouseButton1Down:Connect(function()
 			Dropdown.List.Visible = not Dropdown.List.Visible
