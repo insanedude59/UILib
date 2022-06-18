@@ -780,3 +780,4 @@ function lib:NewTab(name, desc)
     end
     return tabFuncs
 end
+return lib
